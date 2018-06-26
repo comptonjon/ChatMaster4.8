@@ -8,22 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		B12D06CF20E2DDB200E2AA60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12D06CE20E2DDB200E2AA60 /* AppDelegate.swift */; };
-		B12D06D120E2DDB200E2AA60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12D06D020E2DDB200E2AA60 /* ViewController.swift */; };
 		B12D06D420E2DDB200E2AA60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B12D06D220E2DDB200E2AA60 /* Main.storyboard */; };
 		B12D06D720E2DDB200E2AA60 /* ChatMaster4_8.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B12D06D520E2DDB200E2AA60 /* ChatMaster4_8.xcdatamodeld */; };
 		B12D06D920E2DDB400E2AA60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B12D06D820E2DDB400E2AA60 /* Assets.xcassets */; };
 		B12D06DC20E2DDB400E2AA60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B12D06DA20E2DDB400E2AA60 /* LaunchScreen.storyboard */; };
+		B190C37720E2F1850004308B /* ChooseLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B190C37620E2F1850004308B /* ChooseLoginVC.swift */; };
+		B190C37920E2F1920004308B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B190C37820E2F1920004308B /* LoginVC.swift */; };
+		B190C37B20E2F1A10004308B /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B190C37A20E2F1A10004308B /* SignUpVC.swift */; };
+		B190C37D20E2F1B00004308B /* YourChatsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B190C37C20E2F1B00004308B /* YourChatsVC.swift */; };
+		B190C37F20E2F1BE0004308B /* AllUsersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B190C37E20E2F1BE0004308B /* AllUsersVC.swift */; };
+		B190C38120E2F1CD0004308B /* MessagesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B190C38020E2F1CD0004308B /* MessagesVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B12D06CB20E2DDB200E2AA60 /* ChatMaster4.8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatMaster4.8.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B12D06CE20E2DDB200E2AA60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B12D06D020E2DDB200E2AA60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B12D06D320E2DDB200E2AA60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B12D06D620E2DDB200E2AA60 /* ChatMaster4_8.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChatMaster4_8.xcdatamodel; sourceTree = "<group>"; };
 		B12D06D820E2DDB400E2AA60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B12D06DB20E2DDB400E2AA60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B12D06DD20E2DDB400E2AA60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B190C37620E2F1850004308B /* ChooseLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseLoginVC.swift; sourceTree = "<group>"; };
+		B190C37820E2F1920004308B /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		B190C37A20E2F1A10004308B /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		B190C37C20E2F1B00004308B /* YourChatsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourChatsVC.swift; sourceTree = "<group>"; };
+		B190C37E20E2F1BE0004308B /* AllUsersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllUsersVC.swift; sourceTree = "<group>"; };
+		B190C38020E2F1CD0004308B /* MessagesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +67,17 @@
 			isa = PBXGroup;
 			children = (
 				B12D06CE20E2DDB200E2AA60 /* AppDelegate.swift */,
-				B12D06D020E2DDB200E2AA60 /* ViewController.swift */,
 				B12D06D220E2DDB200E2AA60 /* Main.storyboard */,
 				B12D06D820E2DDB400E2AA60 /* Assets.xcassets */,
 				B12D06DA20E2DDB400E2AA60 /* LaunchScreen.storyboard */,
 				B12D06DD20E2DDB400E2AA60 /* Info.plist */,
 				B12D06D520E2DDB200E2AA60 /* ChatMaster4_8.xcdatamodeld */,
+				B190C37620E2F1850004308B /* ChooseLoginVC.swift */,
+				B190C37820E2F1920004308B /* LoginVC.swift */,
+				B190C37A20E2F1A10004308B /* SignUpVC.swift */,
+				B190C37C20E2F1B00004308B /* YourChatsVC.swift */,
+				B190C37E20E2F1BE0004308B /* AllUsersVC.swift */,
+				B190C38020E2F1CD0004308B /* MessagesVC.swift */,
 			);
 			path = ChatMaster4.8;
 			sourceTree = "<group>";
@@ -138,8 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B12D06D120E2DDB200E2AA60 /* ViewController.swift in Sources */,
+				B190C37720E2F1850004308B /* ChooseLoginVC.swift in Sources */,
+				B190C37D20E2F1B00004308B /* YourChatsVC.swift in Sources */,
 				B12D06CF20E2DDB200E2AA60 /* AppDelegate.swift in Sources */,
+				B190C37F20E2F1BE0004308B /* AllUsersVC.swift in Sources */,
+				B190C38120E2F1CD0004308B /* MessagesVC.swift in Sources */,
+				B190C37920E2F1920004308B /* LoginVC.swift in Sources */,
+				B190C37B20E2F1A10004308B /* SignUpVC.swift in Sources */,
 				B12D06D720E2DDB200E2AA60 /* ChatMaster4_8.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RF9G4QRLLG;
 				INFOPLIST_FILE = ChatMaster4.8/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +323,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RF9G4QRLLG;
 				INFOPLIST_FILE = ChatMaster4.8/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
